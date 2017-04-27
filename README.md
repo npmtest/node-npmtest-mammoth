@@ -1,6 +1,6 @@
 # npmtest-mammoth
 
-#### test coverage for  [mammoth (v1.3.5)](https://github.com/mwilliamson/mammoth.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mammoth.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mammoth) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mammoth.svg)](https://travis-ci.org/npmtest/node-npmtest-mammoth)
+#### basic test coverage for  [mammoth (v1.3.6)](https://github.com/mwilliamson/mammoth.js)  [![npm package](https://img.shields.io/npm/v/npmtest-mammoth.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mammoth) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mammoth.svg)](https://travis-ci.org/npmtest/node-npmtest-mammoth)
 
 #### Convert Word documents from docx to simple HTML and Markdown
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mammoth/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mammoth/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mammoth/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mammoth/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mammoth/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mammoth/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mammoth/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mammoth/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mammoth/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mammoth/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mammoth/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mammoth/build/coverage.html/index.html)
 
@@ -72,11 +72,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "62f77b689e60e49a6677cba7109209daffa01e78",
-        "tarball": "https://registry.npmjs.org/mammoth/-/mammoth-1.3.5.tgz"
+        "shasum": "9469203bd338dda19ff9066a06c4257076db97c7",
+        "tarball": "https://registry.npmjs.org/mammoth/-/mammoth-1.3.6.tgz"
     },
-    "gitHead": "cedd2d6d5401b78030318f9e64f684d6ea86085d",
-    "homepage": "https://github.com/mwilliamson/mammoth.js#readme",
+    "homepage": "https://github.com/mwilliamson/mammoth.js",
     "keywords": [
         "docx",
         "html",
@@ -103,7 +102,7 @@
         "pretest": "eslint lib tests",
         "test": "mocha 'test/**/*.tests.js'"
     },
-    "version": "1.3.5"
+    "version": "1.3.6"
 }
 ```
 
